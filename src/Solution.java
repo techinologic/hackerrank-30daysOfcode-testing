@@ -30,10 +30,10 @@ public class Solution {
 
         int[] A = new int[n];
 
-        int count = 0;
-        for (int i = 0; i < n; i++) {
+        int count = 0; // variable to count students
+        for (int i = 0; i < n; i++) { //
             A[i] = sc.nextInt();
-            if (A[i] >= 0) {
+            if (A[i] >= 0) { // more than 0 is considered present in class
                 count++; // counts the number of students attended
             }
         }
